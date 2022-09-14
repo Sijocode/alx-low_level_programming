@@ -9,7 +9,7 @@ int main(void)
 	char *sh = "alx";
 	while(*sh)
 	{
-		_putchar(*sh);
+		putchar(*sh);
 		sh++;
 	}
 	_putchar('\n');
